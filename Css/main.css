@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Source+Serif+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  width: 100vw;
+}
+
+:root {
+  --clr--primary--black: #222222;
+  --clr--primary-white: #ffffff;
+  --clr--seconday--black: #585858;
+  --clr--secondary-white: #dddddd;
+  --clr--Theme-color: #ed1370;
+}
+
+h1,
+h3,
+h4 {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: var(--clr--Theme-color);
+}
+ul {
+  list-style-type: none;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+i {
+  color: var(--clr--Theme-color);
+}
+h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 16px;
+  font-family: "Source Serif Pro", serif;
+  color: var(--clr--seconday--black);
+}
+li {
+  display: flex;
+  color: var(--clr--seconday--black);
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  margin: 24px 0;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container {
+  width: 1366px;
+}
+
+.navbar .container {
+  padding: 2% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .navlinks ul {
+  display: flex;
+}
+
+.navbar .navlinks ul li {
+  flex: 1;
+  padding: 2% 10px;
+}
+
+.navbar .navlinks ul li a {
+  color: var(--clr--seconday--black);
+}
+
+.maincontent > div:nth-child(odd) {
+  background-color: var(--clr--primary--black);
+  color: var(--clr--secondary-white);
+  width: 100vw;
+}
+.maincontent > div:nth-child(odd) p {
+  color: var(--clr--secondary-white);
+}
+.maincontent .about {
+  height: 70vh;
+}
+.maincontent .about .container {
+  display: flex;
+  gap: 20px;
+}
+
+.maincontent .about .right-container img {
+  height: 250px;
+  width: auto;
+}
+
+.maincontent .Requirement {
+  height: 70vh;
+}
+.maincontent .Requirement .container {
+  display: flex;
+  gap: 20px;
+}
+.maincontent .Requirement .left-container {
+  flex: 1;
+}
+.maincontent .Requirement .right-container {
+  flex: 1;
+}
+
+.maincontent .benifits {
+  height: 90vh;
+}
+.maincontent .benifits .container > p {
+  margin-bottom: 42px;
+}
+.maincontent .benifits .benifit {
+  margin: 24px 0;
+}
+
+.maincontent .why {
+  height: 50vh;
+}

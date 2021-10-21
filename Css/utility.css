@@ -1,0 +1,10 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex1 > div {
+  gap: 20px;
+  flex: 1;
+}
