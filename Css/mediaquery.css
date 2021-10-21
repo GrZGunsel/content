@@ -1,7 +1,7 @@
 @media All and (max-width: 1024px) {
   .container {
     width: 100%;
-    display: flex;
+
     padding: 40px 0px;
     margin: 0px 30px;
     flex-direction: column;
