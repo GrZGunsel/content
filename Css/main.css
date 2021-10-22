@@ -70,7 +70,9 @@ a {
 .container {
   width: 1366px;
 }
-
+.dropdownbtn {
+  display: none;
+}
 .navbar .container {
   padding: 2% 0;
   display: flex;
