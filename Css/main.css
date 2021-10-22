@@ -49,6 +49,11 @@ h4 {
   color: var(--clr--primary--black);
   margin-bottom: 10px;
 }
+h5 {
+  color: var(--clr--primary--black);
+  font-size: 16px;
+  font-weight: 600;
+}
 p {
   font-size: 16px;
   font-family: "Source Serif Pro", serif;
@@ -70,7 +75,7 @@ a {
 
 .container {
   width: 1366px;
-  padding: 10rem 0px;
+  padding: 6rem 0px;
 }
 .dropdownbtn {
   display: none;
@@ -131,8 +136,15 @@ a {
   display: flex;
   gap: 20px;
 }
+.maincontent .Requirement .requirementHead {
+  width: 100%;
+}
+.maincontent .Requirement .Skills {
+  gap: 40px;
+}
 .maincontent .Requirement .left-container {
   flex: 1 1 100%;
+  width: 100%;
 }
 .maincontent .Requirement .right-container {
   flex: 1 1 100%;
@@ -146,10 +158,11 @@ a {
   margin: 24px 0;
 }
 
-.why ul li h5 {
-  font-size: 16px;
-}
-
-.why .why-list {
+.why .why-list,
+.skills {
   gap: 20px;
+}
+.why .why-list .list,
+.skills .skill {
+  width: 100%;
 }
