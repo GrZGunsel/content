@@ -5,9 +5,6 @@
     margin: 0px 30px;
     flex-direction: column;
   }
-  .navlinks {
-    display: none;
-  }
 
   .maincontent .about .right-container img {
     display: none;
@@ -16,5 +13,11 @@
   .Skills {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media All and (max-width: 1024px) {
+  .navlinks {
+    display: none;
   }
 }
