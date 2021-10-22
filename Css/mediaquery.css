@@ -1,7 +1,6 @@
 @media All and (max-width: 1024px) {
   .container {
     width: 100%;
-
     padding: 40px 0px;
     margin: 0px 30px;
     flex-direction: column;
@@ -10,10 +9,12 @@
     display: none;
   }
 
-  .maincontent > div {
-    height: 100% !important;
-  }
   .maincontent .about .right-container img {
     display: none;
+  }
+  .reponsibiity,
+  .Skills {
+    display: flex;
+    flex-direction: column;
   }
 }
